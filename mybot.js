@@ -71,9 +71,11 @@ client.on("message", async message => {
   	message.channel.send("Radical Choice Brah!", {files : ["hummus_PNG58.png"]})
   }
   
-  if (message.content.startsWith(prefix + "four door jeep")) {
-   		message.channel.send("Its uhuhhhhhhh four door jeep?", {files : ["FDJ.jpg"]})
+    if(command == "four door jeep") {
+  	message.channel.send("its uuuuhhh four door jeep?", {files : ["4DJ.jpg"]})
   }
+  
+  
 
 });
 
