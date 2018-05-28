@@ -75,7 +75,9 @@ client.on("message", async message => {
   	message.channel.send("its uuuuhhh four door jeep?", {files : ["4DJ.jpg"]})
   }
   
-  
+  if(command == "ryan?") {
+  	message.channel.send("Ryan sure is a cockboi", {files : ["ryan.jpg"]})
+  }
 
 });
 
