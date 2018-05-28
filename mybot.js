@@ -64,7 +64,7 @@ client.on("message", async message => {
   }
 */ 
   if(command == "forte") {
-  	message.channel.send("Jesus Lauren\nTogether in General\n5K in Savings\nFour Door Jeep\nCompounding Interest\nBull Market\nLiterally Always Doing Taxes\nToo Many Layers\n Most Inept Pokemon Trainer\n Resident Virgin\nAccpet\nClassic Hummus Choice Brah\nTapioca Pudding\n");
+  	message.channel.send("<@!282731115087921154>\nJesus Lauren\nTogether in General\n5K in Savings\nFour Door Jeep\nCompounding Interest\nBull Market\nLiterally Always Doing Taxes\nToo Many Layers\n Most Inept Pokemon Trainer\n Resident Virgin\nAccpet\nClassic Hummus Choice Brah\nTapioca Pudding\n");
 
   }
 
@@ -75,15 +75,14 @@ client.on("message", async message => {
     if(command == "fourdoorjeep") {
   	message.channel.send("its uuuuhhh four door jeep?", {files : ["4DJ.jpg"]})
   }
-  
-  if(command == "ryan?") {
-  	message.channel.send("Ryan sure is a cockboi\n And a nan", {files : ["ryan.jpg"]})
-  }
-  
-   if(command == "aidan?") {
-  	message.channel.send("", {files : ["Mink.jpg"]})
-  }
 
+  if(command == "ryan?") {
+    message.channel.send( "<@306683376608477185> sure is a cockboi\n And a nan", {files : ["ryan.jpg"]})
+  }
+  
+  if(command == "aidan?") {
+    message.channel.send("<@331667163331035136>", {files : ["Mink.jpg"]})
+  }
 
 });
 
