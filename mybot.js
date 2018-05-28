@@ -84,7 +84,7 @@ client.on("message", async message => {
     message.channel.send("<@331667163331035136>", {files : ["Mink.jpg"]})
   }
   
-  if(command == "issac?") {
+  if(command == "isaac?") {
      message.channel.send("goo goo gah gah", {files : ["MexBby.jpg"]})
 }
 
