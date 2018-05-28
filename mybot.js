@@ -71,7 +71,7 @@ client.on("message", async message => {
   	message.channel.send("Radical Choice Brah!", {files : ["hummus_PNG58.png"]})
   }
   
-    if(command == "four door jeep") {
+    if(command == "fourdoorjeep") {
   	message.channel.send("its uuuuhhh four door jeep?", {files : ["4DJ.jpg"]})
   }
   
